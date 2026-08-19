@@ -65,15 +65,15 @@ Abre css/estilo.css y modifica las variables del bloque :root para adaptar la pa
 
 ```bash
 ├── css/
-│   └── estilo.css      # Estilos generales y variables de color (:root)
+│   └── estilo.css       # Estilos generales y variables de color (:root)
 ├── js/
-│   ├── config.js      # Panel de configuración con tus datos
-│   └── main.js        # Lógica de la interfaz e IntersectionObserver
-├── img/               # Carpeta para las imágenes de la plantilla
-├── .gitignore         # Evita subir archivos basura o del sistema a Git
-├── index.html         # Estructura principal
-├── LICENSE            # Licencia MIT
-└── README.md          # Documentación del proyecto
+│   ├── config.js        # Panel de configuración con tus datos
+│   └── main.js          # Lógica de la interfaz e IntersectionObserver
+├── img/                 # Carpeta para las imágenes de la plantilla
+├── .gitignore           # Evita subir archivos basura o del sistema a Git
+├── index.html           # Estructura principal
+├── LICENSE              # Licencia MIT
+└── README.md            # Documentación del proyecto
 ```
 
 ## 🚀 Instalación y Uso Local
