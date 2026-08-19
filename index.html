@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Desarrollador Front-End</title>
+
+    <!-- Hojas de estilo y fuentes -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="./css/estilo.css" />
+  </head>
+  <body>
+    <!-- NAVEGACIÓN Y ENCABEZADO -->
+    <header class="contenedor-header">
+      <div class="logo">
+        <a href="#inicio">WebsByJiménez</a>
+      </div>
+      <nav id="nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio">INICIO</a></li>
+          <li><a href="#sobremi">SOBRE MÍ</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#curriculum">CURRÍCULUM</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+      <button
+        class="nav-responsive"
+        id="btn-menu"
+        aria-label="Abrir menú de navegación"
+        aria-expanded="false">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main>
+      <!-- SECCIÓN INICIO -->
+      <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+          <div class="contenedor-img">
+            <img
+              src="./img/fotoPrincipal.png"
+              alt="Fotografía de Jiménez, Desarrollador Front-End" />
+          </div>
+          <h1>Jiménez</h1>
+          <h2>Desarrollador Front-End | Especialista en Interfaces Web & Responsive Design</h2>
+
+          <div class="redes">
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Perfil de LinkedIn">
+              <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Perfil de GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://x.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Perfil de X (Twitter)">
+              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.youtube.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Canal de YouTube">
+              <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://discord.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Servidor de Discord">
+              <i class="fa-brands fa-discord" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN SOBRE MÍ -->
+      <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+          <h2>Sobre Mí</h2>
+          <p>
+            <span>Hola, soy Jiménez.</span> Desarrollador Web enfocado en la creación de
+            experiencias digitales atractivas, accesibles y optimizadas. Apasionado por transformar
+            ideas en código limpio y funcional.
+          </p>
+
+          <div class="fila">
+            <!-- Datos Personales -->
+            <article class="col">
+              <h3>Datos Personales</h3>
+              <ul>
+                <li><strong>Email</strong> cw@example.com</li>
+                <li><strong>Teléfono</strong> +34 600 000 000</li>
+                <li><strong>Website</strong> www.example.com</li>
+                <li><strong>Dirección</strong> Marbella, España</li>
+                <li><strong>Profesión</strong> <span>FREELANCE</span></li>
+              </ul>
+            </article>
+
+            <!-- Intereses -->
+            <article class="col">
+              <h3>Intereses</h3>
+              <div class="contenedor-intereses">
+                <div class="interes">
+                  <i class="fa-solid fa-film" aria-hidden="true"></i><span>CINE</span>
+                </div>
+                <div class="interes">
+                  <i class="fa-solid fa-headphones" aria-hidden="true"></i><span>MÚSICA</span>
+                </div>
+                <div class="interes">
+                  <i class="fa-solid fa-plane" aria-hidden="true"></i><span>VIAJAR</span>
+                </div>
+                <div class="interes">
+                  <i class="fa-solid fa-microchip" aria-hidden="true"></i><span>TECNOLOGÍA</span>
+                </div>
+                <div class="interes">
+                  <i class="fa-solid fa-person-hiking" aria-hidden="true"></i><span>DEPORTE</span>
+                </div>
+                <div class="interes">
+                  <i class="fa-solid fa-book" aria-hidden="true"></i><span>LIBROS</span>
+                </div>
+                <div class="interes">
+                  <i class="fa-solid fa-car" aria-hidden="true"></i><span>MOTOR</span>
+                </div>
+                <div class="interes">
+                  <i class="fa-solid fa-camera" aria-hidden="true"></i><span>FOTOGRAFÍA</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <button type="button" class="btn-cv" onclick="event.preventDefault()">
+            Descargar CV <i class="fa-solid fa-download" aria-hidden="true"></i>
+            <span class="overlay"></span>
+          </button>
+        </div>
+      </section>
+
+      <!-- SECCIÓN SKILLS -->
+      <section class="skills" id="skills">
+        <div class="contenido-seccion">
+          <h2>Skills</h2>
+          <div class="fila">
+            <!-- Technical Skills -->
+            <article class="col">
+              <h3>Technical Skills</h3>
+              <div class="contenedor-skills">
+                <div class="skill-card">
+                  <i class="fa-brands fa-html5" aria-hidden="true"></i>
+                  <span>HTML5 & CSS3</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-js" aria-hidden="true"></i>
+                  <span>JavaScript (ES6+)</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-wordpress" aria-hidden="true"></i>
+                  <span>WordPress</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-brands fa-git-alt" aria-hidden="true"></i>
+                  <span>Git & GitHub</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-code" aria-hidden="true"></i>
+                  <span>Responsive Design</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-figma" aria-hidden="true"></i>
+                  <span>UI/UX & Figma</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Soft Skills & Methodologies -->
+            <article class="col">
+              <h3>Soft Skills</h3>
+              <div class="contenedor-skills">
+                <div class="skill-card">
+                  <i class="fa-solid fa-comments" aria-hidden="true"></i>
+                  <span>Comunicación</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-users" aria-hidden="true"></i>
+                  <span>Trabajo en Equipo</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
+                  <span>Resolución de Problemas</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+                  <span>Gestión de Proyectos</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-brain" aria-hidden="true"></i>
+                  <span>Pensamiento Crítico</span>
+                </div>
+                <div class="skill-card">
+                  <i class="fa-solid fa-clock" aria-hidden="true"></i>
+                  <span>Autogestión</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN CURRÍCULUM -->
+      <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+          <h2>Currículum</h2>
+          <div class="fila">
+            <!-- Educación -->
+            <div class="col izquierda">
+              <h3>Educación</h3>
+              <article class="item izq">
+                <h4>Grado en Ingeniería / Artes Digitales</h4>
+                <span class="casa">Universidad de Ejemplo</span>
+                <span class="fecha">2018 - 2022</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, eaque laboriosam.
+                  Optio quis iusto quia itaque.
+                </p>
+                <div class="conectori"><div class="circuloi"></div></div>
+              </article>
+              <article class="item izq">
+                <h4>Desarrollo Web Front-End</h4>
+                <span class="casa">Academia Tecnológica</span>
+                <span class="fecha">2022 - 2024</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae corporis
+                  fuga, deserunt labore delectus officiis suscipit nulla dolorum, accusamus
+                  similique impedit ipsum quibusdam consequuntur adipisci.
+                </p>
+                <div class="conectori"><div class="circuloi"></div></div>
+              </article>
+            </div>
+
+            <!-- Experiencia -->
+            <div class="col derecha">
+              <h3>Experiencia de trabajo</h3>
+              <article class="item der">
+                <h4>Desarrollador Front-End Freelance</h4>
+                <span class="casa">Proyectos Independientes</span>
+                <span class="fecha">2024 - Presente</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, asperiores quo
+                  officiis soluta perferendis ducimus.
+                </p>
+                <div class="conectord"><div class="circulod"></div></div>
+              </article>
+              <article class="item der">
+                <h4>Maquetador Web</h4>
+                <span class="casa">Agencia Digital</span>
+                <span class="fecha">2022 - 2023</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repudiandae debitis
+                  nobis odit odio iure velit beatae! Ratione, asperiores tempora.
+                </p>
+                <div class="conectord"><div class="circulod"></div></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN PORTFOLIO -->
+      <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+          <h2>PORTFOLIO</h2>
+          <div class="galeria" id="galeria-proyectos">
+            <article class="proyecto">
+              <img src="img/p1.jpg" alt="Captura de pantalla de la aplicación E-Commerce App" />
+              <div class="overlay">
+                <h3>E-Commerce App</h3>
+                <p>Desarrollo Web & UI</p>
+              </div>
+            </article>
+
+            <article class="proyecto">
+              <img src="./img/p2.webp" alt="Captura de pantalla del Dashboard Analytics" />
+              <div class="overlay">
+                <h3>Dashboard Analytics</h3>
+                <p>Frontend & JS</p>
+              </div>
+            </article>
+
+            <article class="proyecto">
+              <img src="./img/p3.jpg" alt="Captura del Portal Corporativo" />
+              <div class="overlay">
+                <h3>Portal Corporativo</h3>
+                <p>WordPress / CMS</p>
+              </div>
+            </article>
+
+            <article class="proyecto">
+              <img src="./img/p4.webp" alt="Diseño de marca e identidad visual" />
+              <div class="overlay">
+                <h3>Branding & Identidad</h3>
+                <p>Diseño Gráfico</p>
+              </div>
+            </article>
+
+            <article class="proyecto">
+              <img src="img/p5.jpg" alt="Interfaz de App Móvil Responsive" />
+              <div class="overlay">
+                <h3>App Móvil UI/UX</h3>
+                <p>Diseño de Interfaz</p>
+              </div>
+            </article>
+
+            <article class="proyecto">
+              <img src="./img/p6.webp" alt="Plataforma Educativa Online" />
+              <div class="overlay">
+                <h3>Plataforma E-learning</h3>
+                <p>Desarrollo Web</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN CONTACTO -->
+      <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+          <h2>CONTACTO</h2>
+          <div class="fila">
+            <!-- Columna Izquierda: Formulario -->
+            <article class="col">
+              <h3 class="sr-only">Formulario de contacto</h3>
+              <form action="#" method="POST" id="form-contacto">
+                <div class="grupo-input">
+                  <label for="nombre" class="sr-only">Tu Nombre</label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required />
+                </div>
+
+                <div class="grupo-input">
+                  <label for="telefono" class="sr-only">Número de teléfono</label>
+                  <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    placeholder="Número de teléfono (solo números)"
+                    pattern="[0-9]+"
+                    title="Por favor, introduce solo números"
+                    required />
+                </div>
+
+                <div class="grupo-input">
+                  <label for="email" class="sr-only">Correo electrónico</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Correo electrónico"
+                    required />
+                </div>
+
+                <div class="grupo-input">
+                  <label for="asunto" class="sr-only">Asunto</label>
+                  <input type="text" id="asunto" name="asunto" placeholder="Asunto" required />
+                </div>
+
+                <div class="grupo-input">
+                  <label for="mensaje" class="sr-only">Escribe tu mensaje</label>
+                  <textarea
+                    name="mensaje"
+                    id="mensaje"
+                    cols="30"
+                    rows="8"
+                    placeholder="Escribe tu mensaje..."
+                    required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">
+                  Enviar Mensaje <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                  <span class="overlay"></span>
+                </button>
+
+                <!-- Mensaje de confirmación (Oculto por defecto) -->
+                <div id="mensaje-exito" class="mensaje-exito" role="alert" aria-live="polite">
+                  <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                  <p>
+                    ¡Mensaje enviado correctamente! Me pondré en contacto contigo lo antes posible.
+                  </p>
+                </div>
+              </form>
+            </article>
+
+            <!-- Columna Derecha: Mapa e Información -->
+            <article class="col">
+              <h3 class="sr-only">Formulario de contacto</h3>
+              <div class="mapa-contenedor">
+                <iframe
+                  title="Ubicación en Marbella, España"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12836.564348638162!2d-4…!2sMarbella%20Centro%2C%20Marbella%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1700000000000!5m2!1ses!2ses"
+                  style="border: 0; width: 100%; height: 100%"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
+              <div class="info">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Marbella, Málaga,
+                    España
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-mobile-screen" aria-hidden="true"></i> Teléfono: +34 600
+                    000 000
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i> Email:
+                    contacto@example.com
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#inicio" class="arriba" aria-label="Volver arriba">
+        <i class="fa-solid fa-angles-up" aria-hidden="true"></i>
+      </a>
+      <div class="redes">
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Perfil de LinkedIn">
+          <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://github.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Perfil de GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://x.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Perfil de X (Twitter)">
+          <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.youtube.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Canal de YouTube">
+          <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://discord.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Servidor de Discord">
+          <i class="fa-brands fa-discord" aria-hidden="true"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
