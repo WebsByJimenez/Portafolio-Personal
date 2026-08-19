@@ -1,10 +1,15 @@
 # 🚀 Developer Portfolio Template
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?logo=github)](https://WebsByJimenez.github.io/Portafolio-Personal/)
+
 Una plantilla web moderna, ligera y completamente adaptable, diseñada para que cualquier desarrollador pueda crear su portfolio en cuestión de minutos.
 
 Construida con **HTML5, CSS3 (Variables `:root`) y JavaScript Vanilla (ES6+)**, sin frameworks ni dependencias externas pesadas.
 
-![Portfolio Preview](https://via.placeholder.com/800x400.png?text=Preview+del+Portfolio)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge)](./LICENSE)
 
 ---
 
